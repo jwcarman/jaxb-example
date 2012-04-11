@@ -1,0 +1,17 @@
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://schema.carmanconsulting.com/circle"
+        xmlns:ns1="http://schema.carmanconsulting.com/shape"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <import namespace="http://schema.carmanconsulting.com/shape" schemaLocation="http://schema.carmanconsulting.com/shape.xsd" />
+    <complexType name="circle">
+        <complexContent>
+            <extension base="ns1:shape">
+                <sequence>
+                    <element name="radius" type="xsd:integer" />
+                    <element name="dob" type="xsd:date" />
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+</schema>

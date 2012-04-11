@@ -1,0 +1,1 @@
+REWRITE_SYSTEM "http://schema.carmanconsulting.com/shape.xsd" "maven:com.carmanconsulting.jaxb:schema-a!/shape.xsd"

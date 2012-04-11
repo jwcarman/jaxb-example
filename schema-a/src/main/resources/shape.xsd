@@ -1,0 +1,9 @@
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://schema.carmanconsulting.com/shape"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <complexType name="shape">
+        <sequence>
+            <element name="timestamp" type="xsd:dateTime"/>
+        </sequence>
+    </complexType>
+</schema>
